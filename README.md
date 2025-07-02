@@ -269,6 +269,9 @@ This analysis shows how each component of the portfolio performs individually ac
 The analysis generates 11 comprehensive visualization charts. Here's what each graph reveals:
 
 ### 1. Portfolio Growth Over 30 Years (`01_portfolio_growth_30years.png`)
+
+![Portfolio Growth Over 30 Years](individual_plots/01_portfolio_growth_30years.png)
+
 **Key Insights:**
 - Shows dramatic divergence between scenarios over time
 - Compares 5 key scenarios: Global Recession, Pessimistic, Average, Optimistic, and Tech Boom
@@ -277,6 +280,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Shows resilience even in crisis scenarios over long timeframes
 
 ### 2. Geopolitical Impact Analysis (`02_geopolitical_impact.png`)
+
+![Geopolitical Impact Analysis](individual_plots/02_geopolitical_impact.png)
+
 **Key Insights:**
 - Compares 4 geopolitical scenarios after 20 years
 - Bar chart format makes impact differences clear
@@ -285,6 +291,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Values clearly labeled on each bar for precise comparison
 
 ### 3. Regional Performance Comparison (`03_regional_performance.png`)
+
+![Regional Performance Comparison](individual_plots/03_regional_performance.png)
+
 **Key Insights:**
 - Shows annual returns by region for different scenarios
 - Demonstrates how geopolitical events affect different markets
@@ -293,6 +302,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Highlights importance of geographic diversification
 
 ### 4. Crisis vs Normal Times (`04_crisis_vs_normal.png`)
+
+![Crisis vs Normal Times](individual_plots/04_crisis_vs_normal.png)
+
 **Key Insights:**
 - Box plot showing distribution of outcomes after 15 years
 - Clear visual separation between crisis and normal scenario outcomes
@@ -301,6 +313,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Normal scenarios show higher returns with greater variability
 
 ### 5. ROI Heatmap (`05_roi_heatmap.png`)
+
+![ROI Heatmap](individual_plots/05_roi_heatmap.png)
+
 **Key Insights:**
 - Color-coded matrix showing ROI% across all scenarios and time horizons
 - Green indicates positive returns, red indicates negative returns
@@ -309,6 +324,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Tech Boom scenario shows exceptional returns across all periods
 
 ### 6. Scenario Probability Distribution (`06_scenario_probabilities.png`)
+
+![Scenario Probability Distribution](individual_plots/06_scenario_probabilities.png)
+
 **Key Insights:**
 - Pie chart showing estimated likelihood of each scenario
 - Average scenario most likely (25%)
@@ -317,6 +335,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Helps set realistic expectations for portfolio planning
 
 ### 7. Portfolio Resilience Analysis (`07_portfolio_resilience.png`)
+
+![Portfolio Resilience Analysis](individual_plots/07_portfolio_resilience.png)
+
 **Key Insights:**
 - Compares average performance of crisis vs favorable scenarios
 - Shows portfolio's defensive characteristics
@@ -325,6 +346,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Crisis scenarios still show positive absolute returns over long term
 
 ### 8. Asset Allocation Visualization (`08_asset_allocation.png`)
+
+![Asset Allocation Visualization](individual_plots/08_asset_allocation.png)
+
 **Key Insights:**
 - Clear pie chart showing portfolio composition
 - 50% S&P 500 provides growth engine
@@ -333,6 +357,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Balanced approach between growth and income
 
 ### 9. All Scenarios Comparison (`09_all_scenarios_comparison.png`)
+
+![All Scenarios Comparison](individual_plots/09_all_scenarios_comparison.png)
+
 **Key Insights:**
 - Comprehensive view of all 9 scenarios over 25 years
 - Monte Carlo-style visualization with varying line thickness and transparency
@@ -341,6 +368,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Illustrates impact of compound growth over time
 
 ### 10. Final Values by Time Horizon (`10_final_values_comparison.png`)
+
+![Final Values by Time Horizon](individual_plots/10_final_values_comparison.png)
+
 **Key Insights:**
 - Bar chart comparing all scenarios across different time periods
 - Shows exponential growth pattern in favorable scenarios
@@ -349,6 +379,9 @@ The analysis generates 11 comprehensive visualization charts. Here's what each g
 - Reveals dramatic differences between best and worst cases
 
 ### 11. Monthly Contribution Impact (`11_contribution_impact.png`)
+
+![Monthly Contribution Impact](individual_plots/11_contribution_impact.png)
+
 **Key Insights:**
 - Shows effect of different monthly contribution amounts (€200-€500)
 - Tested across Pessimistic, Average, and Optimistic scenarios
