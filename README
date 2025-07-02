@@ -1,0 +1,159 @@
+# Investment Portfolio Analysis - Geopolitical & Economic Scenarios
+
+## Overview
+
+This Python-based investment analysis tool provides comprehensive scenario modeling for a diversified equity portfolio with geographic allocation. The tool analyzes various economic and geopolitical scenarios to help investors understand potential outcomes over different time horizons.
+
+## Portfolio Composition
+
+**Asset Allocation:**
+- 50% S&P 500 ETF (US Market Exposure)
+- 30% STOXX Global Dividend 100 (Global Dividend Focus)
+- 20% STOXX Europe 600 ETF (European Market Exposure)
+
+**Investment Parameters:**
+- Monthly Contribution: €250
+- Portfolio Type: 100% Equity with Geographic Diversification
+- Time Horizons: 5, 10, 15, 20, 25, and 30 years
+
+## Economic Scenarios Analyzed
+
+### Crisis Scenarios
+1. **Global Recession** - Global economic recession with significant market downturns across all regions
+2. **US Slowdown** - US economic slowdown while Europe remains relatively strong
+3. **EU Crisis** - European economic crisis with capital flight to US markets
+
+### Conservative Scenarios
+4. **Pessimistic** - Prolonged bear market with low growth across all regions
+5. **Stagnation** - Economic stagnation with minimal growth and inflation concerns
+
+### Normal Scenarios
+6. **Average** - Historical average returns with normal economic cycles
+7. **Moderate Growth** - Moderate economic growth with stable geopolitical environment
+
+### Optimistic Scenarios
+8. **Optimistic** - Strong bull market with technological innovation and growth
+9. **Tech Boom** - Technology-driven boom similar to late 1990s or 2010s
+
+## Key Features
+
+- **Compound Growth Calculation** with monthly contributions
+- **Geopolitical Risk Analysis** across different regions
+- **11 Detailed Visualization Charts** saved as individual PNG files
+- **ROI Analysis** across multiple time horizons
+- **Portfolio Resilience Assessment**
+- **Asset Performance Comparison**
+
+## Generated Visualizations
+
+The analysis generates 11 detailed charts saved in the `individual_plots/` directory:
+
+1. `01_portfolio_growth_30years.png` - Portfolio growth over 30 years for key scenarios
+2. `02_geopolitical_impact.png` - Impact of geopolitical scenarios on portfolio value
+3. `03_regional_performance.png` - Regional performance comparison by scenario
+4. `04_crisis_vs_normal.png` - Distribution of portfolio values in crisis vs normal times
+5. `05_roi_heatmap.png` - ROI heatmap by scenario and time horizon
+6. `06_scenario_probabilities.png` - Estimated probability distribution of scenarios
+7. `07_portfolio_resilience.png` - Portfolio performance in crisis vs favorable scenarios
+8. `08_asset_allocation.png` - Visual representation of portfolio asset allocation
+9. `09_all_scenarios_comparison.png` - Comprehensive comparison of all scenarios over 25 years
+10. `10_final_values_comparison.png` - Final portfolio values by time horizon for all scenarios
+11. `11_contribution_impact.png` - Impact of different monthly contribution amounts
+
+## Usage
+
+Run the analysis with:
+```bash
+python analyse.py
+```
+
+## Sample Analysis Results
+
+### 30-Year Investment Outcomes (€250/month)
+
+| Scenario | Final Value | Total Gains | ROI % |
+|----------|-------------|-------------|-------|
+| Global Recession | €48,289 | €-41,711 | -46.3% |
+| Pessimistic | €133,842 | €43,842 | 48.7% |
+| Average | €430,055 | €340,055 | 377.8% |
+| Optimistic | €1,281,986 | €1,191,986 | 1324.4% |
+| Tech Boom | €1,652,102 | €1,562,102 | 1735.7% |
+
+### 20-Year Geopolitical Impact Analysis
+
+**Base Case (Average Scenario): €160,748**
+
+| Risk Scenario | Impact | Final Value |
+|---------------|--------|-------------|
+| Global Recession | -75.8% | €38,942 |
+| US Slowdown | -38.9% | €98,144 |
+| EU Crisis | -23.7% | €122,605 |
+| Stagnation | -39.6% | €97,031 |
+
+### Regional Exposure Risk Assessment
+
+- **US Market Exposure (S&P 500):** 50%
+- **European Market Exposure (STOXX EU 600):** 20%
+- **Global Dividend Exposure (STOXX Div 100):** 30%
+
+## Key Insights
+
+### Risk-Return Analysis
+- **Outcome Range (30 years):** €1,603,813 (from worst to best case)
+- **Geographic diversification** reduces single-country risks
+- **Dividend-focused allocation** provides defensive characteristics
+- **Long-term perspective** crucial during crisis periods
+
+### Investment Strategy Recommendations
+
+1. **Maintain Geographic Diversification** - Reduces country-specific risks
+2. **Consider Rebalancing** - During extreme market conditions
+3. **Dollar-Cost Averaging** - Helps smooth out geopolitical volatility
+4. **Long-Term Perspective** - Essential during crisis periods
+5. **Defensive Allocation** - Dividend focus provides downside protection
+
+### Crisis vs Normal Times Performance
+
+**15-Year Analysis:**
+- **Crisis Scenarios Average:** Lower portfolio values but still positive long-term growth
+- **Normal Scenarios Average:** Strong positive returns with reasonable risk
+- **Portfolio Resilience:** Diversification helps weather various economic storms
+
+## Technical Details
+
+### Dependencies
+- numpy
+- pandas
+- matplotlib
+- seaborn
+
+### Analysis Methodology
+- Monte Carlo-style scenario modeling
+- Compound growth calculations with monthly contributions
+- Geographic and sector diversification analysis
+- Risk-adjusted return calculations
+- Probability-weighted scenario analysis
+
+## File Structure
+
+```
+stocks/
+├── analyse.py              # Main analysis script
+├── README                  # This documentation file
+└── individual_plots/       # Generated visualization charts
+    ├── 01_portfolio_growth_30years.png
+    ├── 02_geopolitical_impact.png
+    ├── 03_regional_performance.png
+    ├── 04_crisis_vs_normal.png
+    ├── 05_roi_heatmap.png
+    ├── 06_scenario_probabilities.png
+    ├── 07_portfolio_resilience.png
+    ├── 08_asset_allocation.png
+    ├── 09_all_scenarios_comparison.png
+    ├── 10_final_values_comparison.png
+    └── 11_contribution_impact.png
+```
+
+---
+
+*This analysis tool provides educational insights into portfolio performance under various economic scenarios. Past performance does not guarantee future results. Please consult with financial advisors for personalized investment advice.*
